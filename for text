@@ -1,0 +1,45 @@
+<html>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">  
+<head>
+<title>Question</title>
+<style type="text/css">
+a:link, a:visited {
+  border-style: solid;
+  border-width: 5px;
+  border-color: transparent;
+  }
+a:hover {border-color: gray;}
+</style>
+
+</head>
+
+<body>
+<div id="formDiff" class="formElem">
+        <div class="label">
+          <label id="drop-label" for="diffInp">What is your favorite editor: </label>
+        </div>
+        <div class="input">
+            <select type="dropdown" id="dropdown" name="diffInp">
+              <option disabled value>chose your answer</option>
+              <option value="cmder">cmder</option>
+              <option value="Atom">Atom</option>
+              <option value="Atom">Brackets</option>
+            </select>
+        </div>
+      </div>
+    <div id="formDiff" class="formElem">
+        <div class="label">
+          <label id="drop-label" for="diffInp">What is your favorite editor: </label>
+        </div>
+        <div class="input">
+            <select type="dropdown" id="dropdown" name="diffInp">
+              <option disabled value>chose your answer</option>
+              <option value="cmder">cmder</option>
+              <option value="Atom">Atom</option>
+              <option value="Atom">Brackets</option>
+            </select>
+        </div>
+      </div>
+    <button id="submit" type="submit">Submit</button>
+</body>
+</html>
